@@ -1,0 +1,11 @@
+object Data_Module: TData_Module
+  OldCreateOrder = False
+  Height = 365
+  Width = 512
+  object FDConexao: TFDConnection
+    Params.Strings = (
+      'ConnectionDef=MSSQL_Demo')
+    Left = 32
+    Top = 32
+  end
+end

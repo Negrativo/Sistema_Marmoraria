@@ -1,0 +1,45 @@
+unit Data_Modulo;
+
+interface
+
+uses
+  System.SysUtils, System.Classes, FireDAC.Stan.Intf, FireDAC.Stan.Option,
+  FireDAC.Stan.Error, FireDAC.UI.Intf, FireDAC.Phys.Intf, FireDAC.Stan.Def,
+  FireDAC.Stan.Pool, FireDAC.Stan.Async, FireDAC.Phys, FireDAC.FMXUI.Wait,
+  Data.DB, FireDAC.Comp.Client, Data.Win.ADODB;
+
+type
+  TData_Module = class(TDataModule)
+    Conexao_ADO: TADOConnection;
+    Q_Cliente: TADOQuery;
+    Tabela_Cliente: TADOTable;
+    Tabela_Clientennumeclie: TIntegerField;
+    Tabela_Clientecnomeclie: TStringField;
+    Tabela_Clientecmailclie: TStringField;
+    Tabela_Clientec_cpfclie: TStringField;
+    Tabela_Clientecendeclie: TStringField;
+    Tabela_Clientednascclie: TDateField;
+    Tabela_Clientecsexoclie: TStringField;
+    Q_Clientennumeclie: TIntegerField;
+    Q_Clientecnomeclie: TStringField;
+    Q_Clientecmailclie: TStringField;
+    Q_Clientec_cpfclie: TStringField;
+    Q_Clientecendeclie: TStringField;
+    Q_Clientednascclie: TDateField;
+    Q_Clientecsexoclie: TStringField;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Data_Module: TData_Module;
+
+implementation
+
+{%CLASSGROUP 'FMX.Controls.TControl'}
+
+{$R *.dfm}
+
+end.

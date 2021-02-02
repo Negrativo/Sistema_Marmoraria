@@ -1,0 +1,17 @@
+program Marmoraria;
+
+uses
+  System.StartUpCopy,
+  FMX.Forms,
+  principal in '..\Marmoraria multi dev\fontes\principal.pas' {form_principal},
+  login in '..\Marmoraria multi dev\fontes\login.pas' {Form_login},
+  Clientes in '..\Marmoraria multi dev\fontes\Cadastro\Clientes.pas' {form_Clientes};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TForm_login, Form_login);
+  Application.CreateForm(Tform_Clientes, form_Clientes);
+  Application.Run;
+end.

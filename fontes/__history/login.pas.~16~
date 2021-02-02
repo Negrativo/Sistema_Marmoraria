@@ -1,0 +1,68 @@
+unit login;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.StdCtrls,
+  FMX.Objects, FMX.Controls.Presentation, FMX.Edit;
+
+type
+  TForm_login = class(TForm)
+    Panel1: TPanel;
+    Image1: TImage;
+    Panel2: TPanel;
+    Image2: TImage;
+    lb_login: TLabel;
+    ENTRAR: TSpeedButton;
+    te_usua: TEdit;
+    te_senh: TEdit;
+    procedure ENTRARClick(Sender: TObject);
+    procedure login;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form_login: TForm_login;
+
+implementation
+
+{$R *.fmx}
+
+uses principal;
+
+
+procedure TForm_login.ENTRARClick(Sender: TObject);
+var
+ entrou : boolean;
+begin
+ entrou := true;
+
+     if trim(te_usua.Text) = '' then begin
+       showMessage('Impossivel acessar sem usuario!');
+       te_usua.SetFocus;
+       entrou := false;
+     end;
+
+     if trim(te_senh.Text) = '' then begin
+       showMessage('Impossivel acessar sem senha!');
+       te_senh.SetFocus;
+       entrou := false;
+     end;
+
+     if entrou then
+       login;
+end;
+
+procedure TForm_login.login;
+begin
+  //acesso de login pelo BD
+  form_login.hide;
+  form_principal := Tform_principal.Create(form_login);
+  form_principal.ShowModal;
+end;
+
+end.
