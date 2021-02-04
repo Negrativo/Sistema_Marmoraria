@@ -1,0 +1,18 @@
+inherited Form_login_Surface: TForm_login_Surface
+  ClientHeight = 1920
+  ClientWidth = 1080
+  DesignerMasterStyle = 0
+  inherited Panel1: TPanel
+    Size.Width = 1080.000000000000000000
+    Size.Height = 1920.000000000000000000
+    inherited Image1: TImage
+      Size.Width = 1080.000000000000000000
+      Size.Height = 1920.000000000000000000
+    end
+    inherited Panel2: TPanel
+      inherited ENTRAR: TSpeedButton
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+  end
+end

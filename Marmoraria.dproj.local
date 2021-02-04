@@ -2,37 +2,38 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2021/01/16 12:16:17.000.362,=C:\Delphi\Unit1.pas</Transaction>
-    <Transaction>2021/01/19 14:31:40.000.457,C:\Delphi\Unit1.pas=C:\Delphi\Marmoraria multi dev\fontes\principal.pas</Transaction>
-    <Transaction>2021/01/19 14:31:40.000.457,C:\Delphi\Unit1.fmx=C:\Delphi\Marmoraria multi dev\fontes\principal.fmx</Transaction>
-    <Transaction>2021/01/19 14:31:50.000.311,C:\Delphi\Project1.dproj=C:\Delphi\Marmoraria multi dev\HeaderFooterNavigation.dproj</Transaction>
+    <Transaction>2021/01/19 14:31:40.000.457,C:\Delphi\Marmoraria multi dev\fontes\principal.fmx=C:\Delphi\Unit1.fmx</Transaction>
+    <Transaction>2021/01/19 14:31:40.000.457,C:\Delphi\Marmoraria multi dev\fontes\principal.pas=C:\Delphi\Unit1.pas</Transaction>
+    <Transaction>2021/01/19 14:31:50.000.311,C:\Delphi\Marmoraria multi dev\HeaderFooterNavigation.dproj=C:\Delphi\Project1.dproj</Transaction>
     <Transaction>2021/01/19 15:55:31.000.247,=C:\Delphi\Marmoraria multi dev\Unit1.pas</Transaction>
-    <Transaction>2021/01/19 16:06:25.000.231,C:\Delphi\Marmoraria multi dev\HeaderFooterNavigation.dproj=C:\Delphi\Marmoraria multi dev\Marmoraria.dproj</Transaction>
+    <Transaction>2021/01/19 16:06:25.000.231,C:\Delphi\Marmoraria multi dev\Marmoraria.dproj=C:\Delphi\Marmoraria multi dev\HeaderFooterNavigation.dproj</Transaction>
     <Transaction>2021/01/19 16:06:40.000.489,=C:\Delphi\Marmoraria multi dev\Unit1.pas</Transaction>
-    <Transaction>2021/01/19 16:49:00.000.216,C:\Delphi\Marmoraria multi dev\Unit1.fmx=C:\Delphi\Marmoraria multi dev\fontes\login.fmx</Transaction>
-    <Transaction>2021/01/19 16:49:00.000.216,C:\Delphi\Marmoraria multi dev\Unit1.pas=C:\Delphi\Marmoraria multi dev\fontes\login.pas</Transaction>
+    <Transaction>2021/01/19 16:49:00.000.216,C:\Delphi\Marmoraria multi dev\fontes\login.fmx=C:\Delphi\Marmoraria multi dev\Unit1.fmx</Transaction>
+    <Transaction>2021/01/19 16:49:00.000.216,C:\Delphi\Marmoraria multi dev\fontes\login.pas=C:\Delphi\Marmoraria multi dev\Unit1.pas</Transaction>
     <Transaction>2021/01/19 19:32:11.000.716,=C:\Delphi\Marmoraria multi dev\Unit1.pas</Transaction>
-    <Transaction>2021/01/19 19:32:19.000.991,C:\Delphi\Marmoraria multi dev\Clientes.pas=C:\Delphi\Marmoraria multi dev\Unit1.pas</Transaction>
-    <Transaction>2021/01/19 19:32:19.000.991,C:\Delphi\Marmoraria multi dev\Clientes.fmx=C:\Delphi\Marmoraria multi dev\Unit1.fmx</Transaction>
-    <Transaction>2021/01/19 19:32:30.000.539,C:\Delphi\Marmoraria multi dev\fontes\Clientes.pas=C:\Delphi\Marmoraria multi dev\Clientes.pas</Transaction>
-    <Transaction>2021/01/19 19:32:30.000.539,C:\Delphi\Marmoraria multi dev\fontes\Clientes.fmx=C:\Delphi\Marmoraria multi dev\Clientes.fmx</Transaction>
-    <Transaction>2021/01/20 20:21:53.000.978,C:\Delphi\Marmoraria multi dev\fontes\Clientes.fmx=C:\Delphi\Marmoraria multi dev\fontes\Cadastro\Clientes.fmx</Transaction>
-    <Transaction>2021/01/20 20:21:53.000.978,C:\Delphi\Marmoraria multi dev\fontes\Clientes.pas=C:\Delphi\Marmoraria multi dev\fontes\Cadastro\Clientes.pas</Transaction>
-    <Transaction>2021/01/20 20:22:23.000.485,C:\Delphi\Marmoraria multi dev\Marmoraria.dproj=C:\Delphi\Marmoraria\Marmoraria.dproj</Transaction>
+    <Transaction>2021/01/19 19:32:19.000.991,C:\Delphi\Marmoraria multi dev\Unit1.fmx=C:\Delphi\Marmoraria multi dev\Clientes.fmx</Transaction>
+    <Transaction>2021/01/19 19:32:19.000.991,C:\Delphi\Marmoraria multi dev\Unit1.pas=C:\Delphi\Marmoraria multi dev\Clientes.pas</Transaction>
+    <Transaction>2021/01/19 19:32:30.000.539,C:\Delphi\Marmoraria multi dev\Clientes.pas=C:\Delphi\Marmoraria multi dev\fontes\Clientes.pas</Transaction>
+    <Transaction>2021/01/19 19:32:30.000.539,C:\Delphi\Marmoraria multi dev\Clientes.fmx=C:\Delphi\Marmoraria multi dev\fontes\Clientes.fmx</Transaction>
+    <Transaction>2021/01/20 20:21:53.000.978,C:\Delphi\Marmoraria multi dev\fontes\Cadastro\Clientes.pas=C:\Delphi\Marmoraria multi dev\fontes\Clientes.pas</Transaction>
+    <Transaction>2021/01/20 20:21:53.000.978,C:\Delphi\Marmoraria multi dev\fontes\Cadastro\Clientes.fmx=C:\Delphi\Marmoraria multi dev\fontes\Clientes.fmx</Transaction>
+    <Transaction>2021/01/20 20:22:23.000.485,C:\Delphi\Marmoraria\Marmoraria.dproj=C:\Delphi\Marmoraria multi dev\Marmoraria.dproj</Transaction>
     <Transaction>2021/01/20 20:22:55.000.509,=C:\Delphi\Marmoraria\Unit1.pas</Transaction>
-    <Transaction>2021/01/20 20:23:24.000.777,C:\Delphi\Marmoraria multi dev\fontes\Cadastro\Clientes.pas=C:\Delphi\Marmoraria\fontes\Cadastro\Clientes.pas</Transaction>
-    <Transaction>2021/01/20 20:23:24.000.777,C:\Delphi\Marmoraria multi dev\fontes\Cadastro\Clientes.fmx=C:\Delphi\Marmoraria\fontes\Cadastro\Clientes.fmx</Transaction>
-    <Transaction>2021/01/20 20:23:58.000.890,C:\Delphi\Marmoraria multi dev\fontes\principal.pas=C:\Delphi\Marmoraria\fontes\principal.pas</Transaction>
-    <Transaction>2021/01/20 20:23:58.000.890,C:\Delphi\Marmoraria multi dev\fontes\principal.fmx=C:\Delphi\Marmoraria\fontes\principal.fmx</Transaction>
-    <Transaction>2021/01/20 20:24:11.000.330,C:\Delphi\Marmoraria multi dev\fontes\login.pas=C:\Delphi\Marmoraria\fontes\login.pas</Transaction>
-    <Transaction>2021/01/20 20:24:11.000.330,C:\Delphi\Marmoraria multi dev\fontes\login.fmx=C:\Delphi\Marmoraria\fontes\login.fmx</Transaction>
-    <Transaction>2021/01/20 20:36:06.000.483,C:\Delphi\Marmoraria\Unit1.pas=C:\Delphi\Marmoraria\fontes\Cadastro\Funcionarios.pas</Transaction>
-    <Transaction>2021/01/20 20:36:06.000.483,C:\Delphi\Marmoraria\Unit1.fmx=C:\Delphi\Marmoraria\fontes\Cadastro\Funcionarios.fmx</Transaction>
+    <Transaction>2021/01/20 20:23:24.000.777,C:\Delphi\Marmoraria\fontes\Cadastro\Clientes.fmx=C:\Delphi\Marmoraria multi dev\fontes\Cadastro\Clientes.fmx</Transaction>
+    <Transaction>2021/01/20 20:23:24.000.777,C:\Delphi\Marmoraria\fontes\Cadastro\Clientes.pas=C:\Delphi\Marmoraria multi dev\fontes\Cadastro\Clientes.pas</Transaction>
+    <Transaction>2021/01/20 20:23:58.000.890,C:\Delphi\Marmoraria\fontes\principal.pas=C:\Delphi\Marmoraria multi dev\fontes\principal.pas</Transaction>
+    <Transaction>2021/01/20 20:23:58.000.890,C:\Delphi\Marmoraria\fontes\principal.fmx=C:\Delphi\Marmoraria multi dev\fontes\principal.fmx</Transaction>
+    <Transaction>2021/01/20 20:24:11.000.330,C:\Delphi\Marmoraria\fontes\login.fmx=C:\Delphi\Marmoraria multi dev\fontes\login.fmx</Transaction>
+    <Transaction>2021/01/20 20:24:11.000.330,C:\Delphi\Marmoraria\fontes\login.pas=C:\Delphi\Marmoraria multi dev\fontes\login.pas</Transaction>
+    <Transaction>2021/01/20 20:36:06.000.483,C:\Delphi\Marmoraria\fontes\Cadastro\Funcionarios.pas=C:\Delphi\Marmoraria\Unit1.pas</Transaction>
+    <Transaction>2021/01/20 20:36:06.000.483,C:\Delphi\Marmoraria\fontes\Cadastro\Funcionarios.fmx=C:\Delphi\Marmoraria\Unit1.fmx</Transaction>
     <Transaction>2021/01/20 20:42:38.000.388,=C:\Delphi\Marmoraria\Unit2.pas</Transaction>
-    <Transaction>2021/01/20 20:54:34.000.452,C:\Delphi\Marmoraria\Unit2.fmx=C:\Delphi\Marmoraria\fontes\Cadastro\Fornecedor.fmx</Transaction>
-    <Transaction>2021/01/20 20:54:34.000.452,C:\Delphi\Marmoraria\Unit2.pas=C:\Delphi\Marmoraria\fontes\Cadastro\Fornecedor.pas</Transaction>
+    <Transaction>2021/01/20 20:54:34.000.452,C:\Delphi\Marmoraria\fontes\Cadastro\Fornecedor.fmx=C:\Delphi\Marmoraria\Unit2.fmx</Transaction>
+    <Transaction>2021/01/20 20:54:34.000.452,C:\Delphi\Marmoraria\fontes\Cadastro\Fornecedor.pas=C:\Delphi\Marmoraria\Unit2.pas</Transaction>
     <Transaction>2021/01/30 15:26:15.000.499,=C:\Delphi\Marmoraria\Unit1.pas</Transaction>
-    <Transaction>2021/01/30 15:27:40.000.161,C:\Delphi\Marmoraria\Unit1.dfm=C:\Delphi\Marmoraria\Data_Modulo.dfm</Transaction>
-    <Transaction>2021/01/30 15:27:40.000.160,C:\Delphi\Marmoraria\Unit1.pas=C:\Delphi\Marmoraria\Data_Modulo.pas</Transaction>
+    <Transaction>2021/01/30 15:27:40.000.161,C:\Delphi\Marmoraria\Data_Modulo.dfm=C:\Delphi\Marmoraria\Unit1.dfm</Transaction>
+    <Transaction>2021/01/30 15:27:40.000.160,C:\Delphi\Marmoraria\Data_Modulo.pas=C:\Delphi\Marmoraria\Unit1.pas</Transaction>
+    <Transaction>2021/02/03 21:18:48.219,C:\Delphi\Marmoraria\Data_Modulo.pas=</Transaction>
   </Transactions>
 	<ActiveMobileDevice>
 		<NoProfile iOSSimulator="iPhone5"/>
@@ -40,8 +41,6 @@
 	<ProjectSortOrder AutoSort="0" SortType="0">
     <File Path="fontes"/>
     <File Path="fontes\Cadastro"/>
-    <File Path="fontes\Cadastro\Clientes.pas"/>
-    <File Path="fontes\Cadastro\Clientes.fmx"/>
     <File Path="fontes\Cadastro\Fornecedor.pas"/>
     <File Path="fontes\Cadastro\Fornecedor.fmx"/>
     <File Path="fontes\Cadastro\Funcionarios.pas"/>
@@ -50,7 +49,5 @@
     <File Path="fontes\login.fmx"/>
     <File Path="fontes\principal.pas"/>
     <File Path="fontes\principal.fmx"/>
-    <File Path="Data_Modulo.pas"/>
-    <File Path="Data_Modulo.dfm"/>
   </ProjectSortOrder>
 </BorlandProject>

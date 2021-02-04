@@ -1,0 +1,10 @@
+inherited Form_login_Windows: TForm_login_Windows
+  DesignerMasterStyle = 0
+  inherited Panel1: TPanel
+    inherited Panel2: TPanel
+      inherited ENTRAR: TSpeedButton
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+  end
+end

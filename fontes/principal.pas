@@ -32,8 +32,6 @@ type
     Img_Vendas: TImage;
     Img_sair: TImage;
     Line1: TLine;
-    procedure Img_clientesClick(Sender: TObject);
-    procedure mn_clientesClick(Sender: TObject);
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
     procedure mn_fornecedorClick(Sender: TObject);
     procedure mn_funcionarioClick(Sender: TObject);
@@ -52,7 +50,7 @@ implementation
 
 {$R *.fmx}
 
-uses login, Clientes, Fornecedor, Funcionarios;
+uses login, Fornecedor, Funcionarios;
 
 
 
@@ -64,18 +62,6 @@ end;
 procedure Tform_principal.Img_sairClick(Sender: TObject);
 begin
   application.Terminate;
-end;
-
-procedure Tform_principal.Img_clientesClick(Sender: TObject);
-begin
-  form_Clientes := Tform_Clientes.Create(form_principal);
-  form_Clientes.ShowModal;
-end;
-
-procedure Tform_principal.mn_clientesClick(Sender: TObject);
-begin
-  Form_Clientes := Tform_Clientes.Create(form_principal);
-  Form_Clientes.ShowModal;
 end;
 
 procedure Tform_principal.mn_fornecedorClick(Sender: TObject);

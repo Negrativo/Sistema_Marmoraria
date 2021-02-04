@@ -275,6 +275,8 @@
     <PropertyGroup Condition="'$(Cfg_2_Win32)'!=''">
         <AppEnableRuntimeThemes>true</AppEnableRuntimeThemes>
         <AppDPIAwarenessMode>PerMonitorV2</AppDPIAwarenessMode>
+        <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
+        <VerInfo_Locale>1046</VerInfo_Locale>
     </PropertyGroup>
     <ItemGroup>
         <DelphiCompile Include="$(MainSource)">
@@ -288,10 +290,6 @@
             <Form>Form_login</Form>
             <FormType>fmx</FormType>
         </DCCReference>
-        <DCCReference Include="fontes\Cadastro\Clientes.pas">
-            <Form>form_Clientes</Form>
-            <FormType>fmx</FormType>
-        </DCCReference>
         <DCCReference Include="fontes\Cadastro\Funcionarios.pas">
             <Form>Form_Funcionarios</Form>
             <FormType>fmx</FormType>
@@ -299,11 +297,6 @@
         <DCCReference Include="fontes\Cadastro\Fornecedor.pas">
             <Form>Form_Fornecedor</Form>
             <FormType>fmx</FormType>
-        </DCCReference>
-        <DCCReference Include="Data_Modulo.pas">
-            <Form>Data_Module</Form>
-            <FormType>dfm</FormType>
-            <DesignClass>TDataModule</DesignClass>
         </DCCReference>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>

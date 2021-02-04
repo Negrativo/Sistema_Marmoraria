@@ -31,6 +31,8 @@ var
 implementation
 
 {$R *.fmx}
+{$R *.Surface.fmx MSWINDOWS}
+{$R *.Windows.fmx MSWINDOWS}
 
 uses principal;
 
