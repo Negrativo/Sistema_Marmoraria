@@ -36,6 +36,8 @@ type
     procedure mn_fornecedorClick(Sender: TObject);
     procedure mn_funcionarioClick(Sender: TObject);
     procedure Img_sairClick(Sender: TObject);
+    procedure Img_clientesClick(Sender: TObject);
+    procedure mn_clientesClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -50,7 +52,7 @@ implementation
 
 {$R *.fmx}
 
-uses login, Fornecedor, Funcionarios;
+uses login, Fornecedor, Funcionarios, Cliente;
 
 
 
@@ -59,9 +61,21 @@ begin
   application.Terminate;
 end;
 
+procedure Tform_principal.Img_clientesClick(Sender: TObject);
+begin
+  Form_Clientes := TForm_Clientes.Create(form_principal);
+  Form_Clientes.ShowModal;
+end;
+
 procedure Tform_principal.Img_sairClick(Sender: TObject);
 begin
   application.Terminate;
+end;
+
+procedure Tform_principal.mn_clientesClick(Sender: TObject);
+begin
+  Form_Clientes := TForm_Clientes.Create(form_principal);
+  Form_Clientes.ShowModal;
 end;
 
 procedure Tform_principal.mn_fornecedorClick(Sender: TObject);
