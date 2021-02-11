@@ -6,10 +6,24 @@ uses
   System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
   FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, System.Rtti,
   FMX.Grid.Style, FMX.ExtCtrls, FMX.StdCtrls, FMX.ScrollBox, FMX.Grid,
-  FMX.Objects, FMX.Edit, FMX.TabControl, FMX.Controls.Presentation;
+  FMX.Objects, FMX.Edit, FMX.TabControl, FMX.Controls.Presentation,
+  FireDAC.Stan.Intf, FireDAC.Stan.Option, FireDAC.Stan.Param,
+  FireDAC.Stan.Error, FireDAC.DatS, FireDAC.Phys.Intf, FireDAC.DApt.Intf,
+  FireDAC.Stan.Async, FireDAC.DApt, Data.DB, FireDAC.Comp.DataSet,
+  FireDAC.Comp.Client;
 
 type
   TForm_Clientes = class(TForm)
+    Panel3: TPanel;
+    Panel4: TPanel;
+    Grid_cliente: TGrid;
+    D_cliente: TDataSource;
+    Q_cliente: TFDQuery;
+    nome: TColumn;
+    telefone: TColumn;
+    email: TColumn;
+    cpf: TColumn;
+    procedure Image5Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -22,5 +36,23 @@ var
 implementation
 
 {$R *.fmx}
+
+uses Conexao;
+
+procedure TForm_Clientes.Image5Click(Sender: TObject);
+var
+  i :Integer;
+begin
+  Q_cliente.Open();
+  while Q_cliente.Eof do begin
+    Grid_cliente.Columns[0] := Q_cliente.FieldByName('cnomeclie').AsString;
+    Grid_cliente.Columns[1] := Q_cliente.FieldByName('cfoneclie').AsString;
+    Grid_cliente.Columns[2] := Q_cliente.FieldByName('cmailclie').AsString;
+    Grid_cliente.Columns[3] := Q_cliente.FieldByName('c_cpfclie').AsString;
+    Q_cliente.Next;
+    i := i + 1;
+  end;
+  Q_cliente.Close;
+end;
 
 end.
