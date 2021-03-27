@@ -50,17 +50,7 @@ procedure TForm_Clientes.Image5Click(Sender: TObject);
 var
   i :Integer;
 begin
-  Q_cliente.Open();
 
-  while Q_cliente.Eof do begin
-    Grid_cliente.ColumnIndex.Parse(Q_cliente.ToString);
-    //Grid_cliente.Columns[1] := Q_cliente.FieldByName('cfoneclie').AsString;
-    //Grid_cliente.Columns[2] := Q_cliente.FieldByName('cmailclie').AsString;
-   // Grid_cliente.Columns[3] := Q_cliente.FieldByName('c_cpfclie').AsString;
-    Q_cliente.Next;
-    //i := i + 1;
-  end;
-  Q_cliente.Close;
 end;
 
 procedure TForm_Clientes.Image_salvarCClick(Sender: TObject);
@@ -69,19 +59,5 @@ begin
 end;
 
 
-procedure Tform_Clientes.associar_campos;
-begin
-
-    T_Cliente.FieldByName('cnomeclie').Value := e_nomeC.Text;
-  T_Cliente.FieldByName('cmailclie').Value := e_mailC.Text;
-  T_Cliente.FieldByName('c_cpfclie').Value := e_cpfC.Text;
-  T_Cliente.FieldByName('cendeclie').Value := e_endeC.Text;
-  T_Cliente.FieldByName('dnascclie').Value := e_nascC.Text;
-  T_Cliente.FieldByName('dfoneclie').Value := e_foneC.Text;
-  if pop_sexo.ItemIndex = 1 then
-    T_Cliente.FieldByName('csexoclie').Value := 'M'
-  else
-    T_Cliente.FieldByName('csexoclie').Value := 'F';
-end;
 
 end.
